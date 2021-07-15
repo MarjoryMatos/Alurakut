@@ -24,26 +24,7 @@ function ProfileSidebar(propriedades) {
 
 }
 
-export default function Home() {
-  const githubUser = "MarjoryMatos";
-  const [comunidades, setComunidades] = React.useState([{
-    id: '12802378123789378912789789123896123',
-    title: 'Eu odeio acordar cedo',
-    image: 'https://alurakut.vercel.app/capa-comunidade-01.jpg'
-
-  }]);
-
-  console.log('Nosso teste');
-
-  const amigos = [
-    'Yhuri-Gross',
-    'juunegreiros',
-    'omariosouto',
-    'peas',
-    'rafaballerini',
-    'marcobrunodev']
-
-
+function ProfileRelationsBox(propriedades) {
   return (
     <ProfileRelationsBoxWrapper>
       <h2 className="smallTitle">
